@@ -3,6 +3,7 @@
 2. [Backjoon 알고리즘 기초](https://code.plus/course/41) : 포함되어 있는 문제 풀기
 
 > 수봉아 화이팅
+> 누나 화이팅
 
 ## Reference
 - https://github.com/tony9402/baekjoon
