@@ -1,18 +1,14 @@
 #include <iostream>
+#include <string>
 using namespace std;
+
 int main() {
-    long N,min=0,max=0;
-    cin >> N;
-    long M[N];
-    for(int i=0;i<N;i++){
-        cin >> M[i];
-    }
-    min = M[0];
-    for(int i=0;i<N;i++){
-        if(min > M[i])
-            min = M[i];
-        if(max < M[i])
-            max = M[i];
-    }
-    cout << min << " " << max << endl;
+    string s;
+    cin >> s;
+    int result,n = s.length()/2;
+        for(int i=0;i<n;i++){
+            if(s[i]==s[s.length()-1-i]) result = 1;
+            else {result=0; break;}
+        }
+    cout << result << endl;
 }
