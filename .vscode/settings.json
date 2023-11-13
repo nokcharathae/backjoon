@@ -5,7 +5,8 @@
         "ostream": "cpp",
         "algorithm": "cpp",
         "iosfwd": "cpp",
-        "string_view": "cpp"
+        "string_view": "cpp",
+        "cmath": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
