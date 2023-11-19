@@ -1,7 +1,6 @@
 #include<iostream>
-#include<cmath>
 using namespace std;
 
 int main(){
-    cout << pow(36,5);
+    cout << "hello" << endl;
 }
