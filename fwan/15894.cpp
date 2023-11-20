@@ -2,5 +2,8 @@
 using namespace std;
 
 int main(){
-    cout << "hello" << endl;
+    long a;
+    cin >> a;
+    a *=4;
+    cout << a;
 }
